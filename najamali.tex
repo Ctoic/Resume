@@ -1,0 +1,346 @@
+%-------------------------
+% Resume in Latex
+% Author : Najam
+%------------------------
+
+
+\documentclass[letterpaper,11pt]{article}
+
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{graphicx}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+\RequirePackage{tikz}
+\RequirePackage{xcolor}
+\RequirePackage{fontawesome}
+\usepackage{tikz}
+\usetikzlibrary{svg.path}
+
+
+
+
+\definecolor{cvblue}{HTML}{0E5484}
+\definecolor{black}{HTML}{130810}
+\definecolor{darkcolor}{HTML}{0F4539}
+\definecolor{cvgreen}{HTML}{3BD80D}
+\definecolor{taggreen}{HTML}{00E278}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{name}{black}
+\colorlet{tagline}{darkcolor}
+\colorlet{heading}{darkcolor}
+\colorlet{headingrule}{cvblue}
+\colorlet{accent}{darkcolor}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+
+\urlstyle{same}
+
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{\large#1} & \textbf{\small #2} \\
+      \textit{\large#3} & \textit{\small #4} \\
+     
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+
+
+\newcommand\sbullet[1][.5]{\mathbin{\vcenter{\hbox{\scalebox{#1}{$\bullet$}}}}}
+
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+
+\begin{center}
+    {\Huge \scshape Najam Ali Abass} \\ \vspace{1pt}
+    House 24 Street 586, G13/2 Islamabad \\ \vspace{1pt}
+    \small \href{tel:+92-3173036098}{ \raisebox{-0.1\height}\faPhone\ \underline{+92-3173036098} ~} \href{mailto:najamabass2020@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{najamabass2020@gmail.com}} ~
+    \href{https://www.linkedin.com/in/ctoic/}{\raisebox{-0.1\height}\faLinkedinSquare\ \underline{Najam}}  ~
+    \href{https://github.com/Ctoic}{\raisebox{-0.2\height}\faGithub\ \underline{ctoic}} ~
+    \href{https://www.instagram.com/dev_with_ctoic}{\raisebox{-0.2\height}\faInstagram \underline{ctoic}} ~
+    \href{https://codeforces.com/profile/yourid}{\raisebox{-0.2\height}\faYoutube\ \underline{Ishowscience}}
+    
+    
+    \vspace{-8pt}
+\end{center}
+
+
+
+
+%-----------EDUCATION-----------
+\section{EDUCATION}
+ \resumeSubHeadingListStart
+    \resumeSubheading
+      {FAST-National University Of Computer and Emerging Science}{08 2021 -- Present}
+      {Bs Computer Science   - \textbf{2.67} }{Islamabad, Pakistan}
+  \resumeSubHeadingListEnd
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {FAST-NUCES,}{08 2020 -- 07 2021}
+      {Bs Software Engineering - \textbf{3.33} }{Peshawer, Pakistan}
+  \resumeSubHeadingListEnd
+ 
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Aga Khan Higher Secondary School, Gilgit}{08 2021 -- Present}
+      {HSSC(I \& II)   - \textbf{A+} }{Gilgit Baltistan, Pakistan}
+  \resumeSubHeadingListEnd
+
+
+%------RELEVANT COURSEWORK-------
+\section{COURSEWORK / SKILLS}
+    %\resumeSubHeadingListStart
+        \begin{multicols}{4}
+            \begin{itemize}[itemsep=-3pt, parsep=5pt]
+                \item Programming Fundamentals in (C++ and Python)
+                \item Data Structures \& Algorithms
+                \item Operating Systems
+                \item Information Security
+                \item Database Management System (DBMS)
+                \item Artificial Intelligence
+                \item OOPS Concept
+                \item Web Development
+                \item Image Processing 
+                \item Computer Networks
+                \item Statistics 
+                \item Software Engineering
+                \item Theory Of Automata 
+            \end{itemize}
+        \end{multicols}
+        \vspace*{2.0\multicolsep}
+    %\resumeSubHeadingListEnd
+
+
+
+
+
+
+%-----------PROJECTS-----------
+\section{PROJECTS}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\href{https://github.com/Ctoic/Infix-Postfix-Prefix-Converter.git}{\textbf{\large{\underline{Infix to Postfix and Prefix Converter}}} \href{Project Link}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{\underline{C++, Data Structures, Stacks, Linked Lists }}}{MM YYYY}
+          \resumeItemListStart
+            \resumeItem{\normalsize{This project provides a simple implementation of a stack-based algorithm to convert infix expressions to postfix (Reverse Polish Notation) and prefix (Polish Notation) expressions. It also includes functionality to evaluate postfix expressions.
+
+            \textbf{highlight key points}.}}
+            \resumeItem{\textcolor{accent} {\href{Project Link} {\underline{\normalsize{Download}}}}}
+          \resumeItemListEnd
+          \vspace{-13pt}
+         
+          \resumeProjectHeading
+          {\href{https://github.com/Ctoic/Algorithm-Visualizer-Using-pygame}{\textbf{\large{\underline{Algorithm Visualizer}}} \href{https://github.com/Ctoic/Algorithm-Visualizer-Using-pygame}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{\underline{Python, Pygame}}}{04 2022}
+          \resumeItemListStart
+            \resumeItem{\normalsize{In this project we have used python language because of it's extensive librarires and easy syntax. By using the pygame library we will visualize all the sorting algorithm. By looking at the graph how data is sorted we will analyze which sorting technique perform best under a specificc situatiion. Before writing the prgoram we will setup the Envirement for pygame and we will Install the pakages. The Gui will be provided by pygame. After installation we are good to run the python program to visualize sorting algorithms on the screen. \textbf{Insertion sort
+            Bubble sort
+            Merge Sort
+            Quick Sort
+            Count Sort
+            Selection Sort
+            Heap Sort
+            Radix Sort
+            Bucket Sort} }}
+           
+          \resumeItemListEnd
+
+          \resumeProjectHeading
+          {\href{ProjectLink.com}{\textbf{\large{\underline{Task Manager}}} \href{https://github.com/Ctoic/Task-Manager.git}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{\underline{Html,CSS,Bootstrap,Javascript,Github,Python, Flask,jinjatemplate2}}}{06 2023}
+          \resumeItemListStart
+            \resumeItem{\normalsize{ Web Application for tracking your daily tasks using flask. \textbf{Python,Flask,GitHub}.}}
+
+          \resumeItemListEnd
+          \vspace{-4pt}
+
+          \resumeProjectHeading
+          {\href{https://lisbook.netlify.app/}{\textbf{\large{\underline{Lisbook}}} \href{https://github.com/Ctoic/Lisbook}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{\underline{Html,CSS,Javascript,Github,Netlify}}}{06 2023}
+          \resumeItemListStart
+            \resumeItem{\normalsize{ Web application for listening to books. Built with HTML, CSS, and JavaScript. Deployed on Netlify. \textbf{Open-source on GitHub}.}}
+            \resumeItem{\normalsize{ Features include: \textbf{audio playback, bookmarking, progress tracking, and a user-friendly interface}.}}
+          \resumeItemListEnd
+          \vspace{-13pt}
+ 
+
+         
+    \resumeSubHeadingListEnd
+\vspace{-1pt}
+
+
+%
+
+# Draw a line between the sections
+\begin{tikzpicture}[remember picture,overlay]
+\draw[fill=heading,draw=heading, opacity=0.3] (current page.north west) rectangle (current page.south east);
+\end{tikzpicture}
+
+
+
+%-----------EXPERIENCE-----------
+\section{INTERNSHIP}
+  \resumeSubHeadingListStart
+
+
+    \resumeSubheading
+      {Github Education \href{[![An image of @ctoic's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/ctoic)](https://holopin.io/@ctoic)}{\raisebox{-0.1\height}\faExternalLink }}{10 2023 -- 11 2023}
+      {\underline{Maintainer and Contributer at open source Event}}{Remote, GitHub}
+      \resumeItemListStart
+        \resumeItem{\normalsize{About the role \textbf{Open Source , Github , Version Control , Web Development}}}
+ 
+      \resumeItemListEnd  
+
+      \resumeSubheading
+      {C3 Akademia\href{[![An image of @ctoic's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/ctoic)](https://holopin.io/@ctoic)}{\raisebox{-0.1\height}\faExternalLink }}{10 2023 -- 11 2023}
+      {\underline{Website Developer , Headed The Graphic and Content Creator Team,  }}{Onsite, C3 Akademia}
+      \resumeItemListStart
+        \resumeItem{\normalsize{About the role \textbf{Open Source , Github , Version Control , Web Development}}}
+ 
+      \resumeItemListEnd  
+
+      \resumeSubheading
+      {Github Education \href{[![An image of @ctoic's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/ctoic)](https://holopin.io/@ctoic)}{\raisebox{-0.1\height}\faExternalLink }}{10 2023 -- 11 2023}
+      {\underline{Maintainer and Contributer at open source Event}}{Remote, GitHub}
+      \resumeItemListStart
+        \resumeItem{\normalsize{About the role \textbf{Open Source , Github , Version Control , Web Development}}}
+ 
+      \resumeItemListEnd  
+
+  \resumeSubHeadingListEnd
+\vspace{-12pt}
+%-----------PROGRAMMING SKILLS-----------
+\section{TECHNICAL SKILLS}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{\normalsize{Languages:}}{ \normalsize{Python, Java, C, C++, Dart, JavaScript, SQL, NoSQL, R, XML, Go}} \\
+     \textbf{\normalsize{Developer Tools:}}{ \normalsize{VS Code, Android Studio, DataGrip, Goland, Intellij Idea Ultimate, Visual Studio}} \\
+     \textbf{\normalsize{Technologies/Frameworks:}}{\normalsize{ Linux, GitHub, ReactJS, Bootstrap,Streamlit,WordPress, NextJS, Git, Mongo, Flutter}} \\
+    }}
+ \end{itemize}
+ \vspace{-15pt}
+
+
+
+
+%-----------INVOLVEMENT---------------
+\section{EXTRACURRICULAR}
+    \resumeSubHeadingListStart
+        \resumeSubheading{Ismaili Boy Scout Association \href{Certificate Proof link}{\raisebox{-0.1\height}\faExternalLink } }{MM YYYY -- MM YYYY}{\underline{Role}}{Location}
+            \resumeItemListStart
+                \resumeItem{\normalsize{Helping community in need and teaching the young generation to equip their self with the latest technology. \textbf{and responsibilities carried out.}}}
+                \resumeItem{\normalsize{Participation Certificate. \href{ParticipationCertificateLink.com}{\raisebox{-0.1\height}\faExternalLink }}}
+            \resumeItemListEnd
+
+            \resumeSubheading{Comprehensive Community Care C3 \href{Certificate Proof link}{\raisebox{-0.1\height}\faExternalLink } }{MM YYYY -- MM YYYY}{\underline{Role}}{Location}
+            \resumeItemListStart
+                \resumeItem{\normalsize{Helping community in need and teaching the young generation to equip their self with the latest technology. \textbf{and responsibilities carried out.}}}
+                \resumeItem{\normalsize{Participation Certificate. \href{ParticipationCertificateLink.com}{\raisebox{-0.1\height}\faExternalLink }}}
+            \resumeItemListEnd
+
+            \resumeSubheading{Fast Developer Club\href{Certificate Proof link}{\raisebox{-0.1\height}\faExternalLink } }{MM YYYY -- MM YYYY}{\underline{Role}}{Location}
+            \resumeItemListStart
+                \resumeItem{\normalsize{Helping community in need and teaching the young generation to equip their self with the latest technology. \textbf{and responsibilities carried out.}}}
+                \resumeItem{\normalsize{Participation Certificate. \href{ParticipationCertificateLink.com}{\raisebox{-0.1\height}\faExternalLink }}}
+            \resumeItemListEnd
+            
+    \resumeSubHeadingListEnd
+ \vspace{-11pt} 
+\end{document}
+
+
+
+
+
