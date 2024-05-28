@@ -1,13 +1,12 @@
 # Fdb version 3
-["pdflatex"] 1716349483 "/home/ctoic/Documents/Resume/najamali.tex" "najamali.pdf" "najamali" 1716349487
+["pdflatex"] 1716876475 "/home/ctoic/Documents/Resume/najamali.tex" "najamali.pdf" "najamali" 1716876476
   "/etc/texmf/web2c/texmf.cnf" 1684664181 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/ctoic/Documents/Resume/najamali.tex" 1716349482 13084 44b7ffe989b91a20e0a5788c60a91d1c ""
+  "/home/ctoic/Documents/Resume/najamali.tex" 1716876474 14201 9192e4b8588a7eb5e4b7e1bc11e0e51d ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomethree.enc" 1463430686 2437 443c81fb50993bacedc5f9a206c322b0 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc" 1463430686 2679 32dd8ae231bf4a0752b98f62dc097183 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
-  "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbxti10.tfm" 1136768653 1532 9162035f4e7176612125649e348e2195 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm" 1136768653 1300 63a6111ee6274895728663cf4b4e7e81 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1136768653 1528 abec98dbc43e172678c11b3b9031252a ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1136768653 1524 4414a8315f39513458b80dfc63bff03a ""
@@ -32,7 +31,6 @@
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/latex-fonts/lasy8.tfm" 1136768653 520 7bb3abb160b19e0ed6ac404bb59052b7 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1248133631 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1248133631 32080 340ef9bf63678554ee606688e7b5339d ""
-  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb" 1248133631 36554 b67dc2cfa451409e100b3fcf5f506509 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb" 1248133631 32001 6aeea3afe875097b1eb0da29acd61e28 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1248133631 32722 d7379af29a190c3f453aba36302ff5a9 ""
@@ -184,9 +182,9 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1684664237 4379155 98693266ff65f58d9f98aff394de12d2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1710465128 2798313 3d02398c682de9fe73b2029e9dcb1111 ""
-  "najamali.aux" 1716349487 1425 700fba0a6f8e45a06e7d9a5f4583c9e7 "pdflatex"
-  "najamali.out" 1716349487 652 0e31a2b9596cbd1410f4a5783f02b2c7 "pdflatex"
-  "najamali.tex" 1716349482 13084 44b7ffe989b91a20e0a5788c60a91d1c ""
+  "najamali.aux" 1716876476 1638 8769831e1a8b27973a5702ab253bb7d0 "pdflatex"
+  "najamali.out" 1716876476 833 2318efe89c9851195b7e2e0e6f365e9c "pdflatex"
+  "najamali.tex" 1716876474 14201 9192e4b8588a7eb5e4b7e1bc11e0e51d ""
   (generated)
   "najamali.aux"
   "najamali.log"
