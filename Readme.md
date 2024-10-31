@@ -3,6 +3,10 @@ This repository contains a LaTeX template for creating a professional resume. Th
 
 Overview
 The resume template includes sections for:
+Overview
+The resume template includes sections for:
+Overview
+The resume template includes sections for:
 
 - Personal Information: Name, address, contact number, email, and links to social media or professional profiles (e.g., LinkedIn, GitHub, Instagram, and YouTube).
 - Education: Details about your educational background, including degrees, institutions, and timelines.
